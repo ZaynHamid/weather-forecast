@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f6f6f8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.infoBoxes {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: 20px;
+    color: #000;
+    border-radius: 8px;
+    padding: 20px; 
+    width: 200px; 
+    text-align: center;  
+}
+
+.x {
+    background: #e9efec;
+}
+
+.hr {
+    width: 75%;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    height: 1rem;
+    opacity: 0.60;
+}
+
+.grouped-data {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2px;
+}
+
+.grouped-data h5 {
+    margin-top: 10px;
+}
+
+.y {
+    margin-top: 5rem !important;
+}
+.daily-data-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-top: 2px solid #dde7ed;
+    border-bottom: 2px solid #dde7ed;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.wind-percip-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+    padding: 0;
+}
+
+.z {
+    list-style: none;
+}
+
+.main-container {
+    background-image: url(clear-sky.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+.weatherInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+    gap: 15px;
+}
+
+.gradient {
+    background: rgba(13, 157, 237, 0.8);
+}
+
+.nav-item a {
+    margin-left: 1.5rem;
+    color: #f6f6f8;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease all;
+}
+
+.nav-item a:hover {
+    opacity: 0.9;
+}
